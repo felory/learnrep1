@@ -1,0 +1,12 @@
+SSH——secure shell 是一种加密网络传输协议。
+通过在网络中创建安全隧道来实现SSH客户端与服务器之间的连接。
+常用网络服务如【远程登陆系统】利用SSH实现安全传输（旨在保证非安全网络环境 中信息加密完整可靠，如互联网）。
+
+以非对称加密 来实现 身份验证（两种方式）。
+（1.自动生成公钥-私钥对 简单加密网络连接，随后使用密码登录。
+2.人工生成一对公钥和私钥，通过生成的密钥进行认证。不需要输入密码，任何人都可以自己生成密钥）
+
+数字签名
+http://www.ruanyifeng.com/blog/2011/08/what_is_a_digital_signature.html
+SSH协议原理
+https://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html
